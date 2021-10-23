@@ -103,7 +103,7 @@ camera_config_t esp32cam_ttgo_t_config{
 
 void OV2640::run(void)
 {
-    if (fb)
+    if (fb) //si no es null
         //return the frame buffer back to the driver for reuse
         esp_camera_fb_return(fb);
 
@@ -143,6 +143,15 @@ uint8_t *OV2640::getfb(void)
         return NULL; // FIXME - this shouldn't be possible but apparently the new cam board returns null sometimes?
 
     return fb->buf;
+}
+
+camera_fb_t  *OV2640::getfbOnly(void)
+{
+    runIfNeeded();
+    if (!fb)
+        return NULL; // FIXME - this shouldn't be possible but apparently the new cam board returns null sometimes?
+
+    return fb;
 }
 
 framesize_t OV2640::getFrameSize(void)

@@ -1,5 +1,7 @@
 #include "stream_library.h"
 
+
+
 //#include "src/OV2640.h"
 //#include <WiFi.h>
 //#include <WebServer.h>
@@ -14,6 +16,16 @@
 //#define SSID1 "perdedores"
 //#define PWD1  "somos perdedores 1375"
 
+//motion detection 
+#include "my_library.h"
+#define CAMERA_MODEL_AI_THINKER
+// include the relevant libraries
+#include <FS.h>
+#include <SPIFFS.h>
+//#define timeit(label, code) { uint32_t start = millis(); code; uint32_t duration = millis() - start; eloquent::io::print_all("It took ", duration, " millis for ", label); }
+#define timeit(label, code) code;
+void bring_resources();
+//
 
 OV2640 cam;
 
@@ -29,20 +41,21 @@ const int bdrLen = strlen(BOUNDARY);
 const int cntLen = strlen(CTNTTYPE);
 
  
-void handle_jpg_stream(void) //loop infinito en core 1
+void handle_jpg_stream(void) //loop infinito esto va a ir a un core
 {
-  char buf[32];
-  int s;
+  char buf[32]; //creo que aca se guarda la imagen
+  int s;        //tamano de la imagen
 
-  WiFiClient client = server.client();// crea un clinete usando la clase Web server
+  WiFiClient client = server.client();
 
   client.write(HEADER, hdrLen);
   client.write(BOUNDARY, bdrLen);
   
   while (true)
   {
-    if (!client.connected()) break; //si no hay nadie viendo el stream apaga el stream
-    cam.run();
+    if (!client.connected()) break;
+
+    cam.run(); //saca una nueva foto, el fb queda guardado en la variable de clase
     s = cam.getSize();
     client.write(CTNTTYPE, cntLen);
     sprintf( buf, "%d\r\n\r\n", s );
@@ -50,7 +63,7 @@ void handle_jpg_stream(void) //loop infinito en core 1
     client.write((char *)cam.getfb(), s);
     client.write(BOUNDARY, bdrLen);
     Serial.print("stream en core :");
-  Serial.println(xPortGetCoreID());
+    Serial.println(xPortGetCoreID());//core en el que se ejecuta
   }
 }
 
@@ -83,69 +96,75 @@ void handleNotFound()
   server.send(200, "text / plain", message);
 }
 //////////////////////SETUP////////////////////////////////////////////////
+
 void setup()
 {
 
   Serial.begin(115200);
-  //while (!Serial);            //wait for serial connection.
+
+  SPIFFS.begin(true);
+  delay(1000);
 
   camera_config_t config;
   set_camara_config(config);
-//  config.ledc_channel = LEDC_CHANNEL_0;
-//  config.ledc_timer = LEDC_TIMER_0;
-//  config.pin_d0 = Y2_GPIO_NUM;
-//  config.pin_d1 = Y3_GPIO_NUM;
-//  config.pin_d2 = Y4_GPIO_NUM;
-//  config.pin_d3 = Y5_GPIO_NUM;
-//  config.pin_d4 = Y6_GPIO_NUM;
-//  config.pin_d5 = Y7_GPIO_NUM;
-//  config.pin_d6 = Y8_GPIO_NUM;
-//  config.pin_d7 = Y9_GPIO_NUM;
-//  config.pin_xclk = XCLK_GPIO_NUM;
-//  config.pin_pclk = PCLK_GPIO_NUM;
-//  config.pin_vsync = VSYNC_GPIO_NUM;
-//  config.pin_href = HREF_GPIO_NUM;
-//  config.pin_sscb_sda = SIOD_GPIO_NUM;
-//  config.pin_sscb_scl = SIOC_GPIO_NUM;
-//  config.pin_pwdn = PWDN_GPIO_NUM;
-//  config.pin_reset = RESET_GPIO_NUM;
-//  config.xclk_freq_hz = 20000000;
-//  config.pixel_format = PIXFORMAT_JPEG;
-//  // Frame parameters
-//  //  config.frame_size = FRAMESIZE_UXGA;
-//  config.frame_size = FRAMESIZE_QVGA;
-//  config.jpeg_quality = 12;
-//  config.fb_count = 2;
-    cam.init(config);
+  cam.init(config);
+  set_motion_config();
+  //start_camera(); //declarada en cpp   
+  //set_motion_config();
 
   IPAddress ip;
 
   WiFi.mode(WIFI_STA);
   WiFi.begin(SSID1, PWD1);
-  
-  while (WiFi.status() != WL_CONNECTED)/////////espera la coneccion
+  while (WiFi.status() != WL_CONNECTED)
   {
     delay(500);
     Serial.print(F("."));
   }
-  ip = WiFi.localIP();
-  
+  ip = WiFi.localIP();//local IP del server
   Serial.println(F("WiFi connected"));
   Serial.println("");
   Serial.println(ip);
   Serial.print("Stream Link: http://");
   Serial.print(ip);
   Serial.println("/mjpeg/1");
-  
+
   server.on("/mjpeg/1", HTTP_GET, handle_jpg_stream);
   server.on("/jpg", HTTP_GET, handle_jpg);
   server.onNotFound(handleNotFound);
   server.begin();
 }
 //////////////////////////////MAIN LOOP/////////////////////////////////////////////////
-void loop()//el main se ejecuta en el core core 1
-{  
-  server.handleClient();// este codigo se ejecuta siempre pero solo se activa si se pide el stream.
- //si alguien pide el strem, entonces se entra en un loop infinito dentro del server.
-                         
+bool iniciar=true;
+int count=0;
+void loop()
+{
+  Serial.print("el main se ejecuta en el core :");
+  Serial.println(xPortGetCoreID());
+  server.handleClient();
+  
+  if (iniciar and count>=400) {
+      iniciar=false;
+      Serial.println("entro al iniciador");
+      
+      delay(5000);    
+
+      esp_camera_deinit();
+      camera_config_t config;
+      set_camara_config2(config);
+       Serial.println("incia la camara");
+      cam.init(config);
+      
+     
+     
+      
+  }  while (!iniciar) {
+      
+      cam.run();//guarda la foto en el buffer
+     
+      procces_buffer(cam.getfb()); //camputra frames
+      hay_movimiento(); //detecta si hay o no movimiento  
+      delay(30);//fps estaba en 30
+    }
+  count=count+1;
 }

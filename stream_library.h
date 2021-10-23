@@ -16,4 +16,6 @@
 
 
 void set_camara_config(camera_config_t &config);
+void set_camara_config2(camera_config_t &config);
+
 #endif
