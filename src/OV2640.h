@@ -26,7 +26,7 @@ public:
     int getHeight(void);
     framesize_t getFrameSize(void);
     pixformat_t getPixelFormat(void);
-
+    camera_fb_t  *getfbOnly(void);
     void setFrameSize(framesize_t size);
     void setPixelFormat(pixformat_t format);
 
