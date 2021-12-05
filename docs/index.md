@@ -32,9 +32,10 @@ Quienes tienen mascotas en el hogar saben que pueden demandar mucha atención, d
 2. El juguete se enciende automáticamente si detecta el sonido del gato.
 3. Streaming de video
 
-<video src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" data-canonical-src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;"/>
+<video src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" controls="controls" style="max-width: 730px;">
+</video>
 
-<img src="dashboard.png" alt="drawing"  height ="500" width="900" />
+<img src="dashboard.png" alt="drawing"  height ="250" width="450" />
 ```markdown
 ejemplos de codigo o cosas que queres recuadrar en este formato
 dddd
