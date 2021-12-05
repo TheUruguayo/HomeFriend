@@ -2,6 +2,7 @@
 **Más que un robot, un amigo del hogar!**
 
 <img src="WhatsApp%20Image%202020-10-18%20at%2015.21.43.jpeg" alt="drawing"  height ="200" width="200" />
+Ignacio Lanzani
 
 ### DESCRIPCION
 
@@ -11,9 +12,28 @@ Quienes tienen mascotas en el hogar saben que pueden demandar mucha atención, d
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
+### Funcionalidades del sistema.
+
+1. Conexión e interacción de funcionalidades con things board permite: 
+- Ver temperatura actual e historico.
+- Ver Humedad
+- Ver Decibeles
+- Ver Niveles de dióxido de carbono
+- Aviso de movimiento
+- Aviso de luz encendida
+- Encendido de alarmas
+- Histórico de alarmas
+- Control de luz, láser, giro del sistema y encendido del juguete.
+- Direccion Ip de los dispositivos conectados
+- Recibir Emails cuando se activan las alarmas.
+- Bandera si el gasto está cerca.
+- El juguete se enciende automáticamente si detecta el sonido del gato.
+- Streaming de video
+2. El juguete se enciende automáticamente si detecta el sonido del gato.
+3. Streaming de video
 
 
-<img src="dashboard.png" alt="drawing"  height ="300" width="500" />
+<img src="dashboard.png" alt="drawing"  height ="500" width="700" />
 ```markdown
 ejemplos de codigo o cosas que queres recuadrar en este formato
 dddd
