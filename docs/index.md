@@ -3,10 +3,19 @@
 <p align="center">
 <img src="posterfinal.png" alt="drawing"  height ="200" width="150" />
 
+  
 ### VIDEO
+  </summary>
+
+  <video src="https://github.com/TheUruguayo/HomeFriend/blob/main/docs/ROBOT_20211205_BAJA.mp4" data-canonical-src="https://github.com/TheUruguayo/HomeFriend/blob/main/docs/ROBOT_20211205_BAJA.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+
+  </video>
+</details>
+
 <video width="480" height="320" controls="controls">
-  <source src="ROBOT_20211205_BAJA.mp4 type="video/mp4">
+<source src="ROBOT_20211205_BAJA.mp4 type="video/mp4">
 </video>
+                                                       
 https://www.youtube.com/watch?v=mrWStz2AeSQ
                                                        
 ### Creadores
