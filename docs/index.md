@@ -61,14 +61,14 @@ Quienes tienen mascotas en el hogar saben que pueden demandar mucha atención, d
 
 
 ### Apariencia 
-<img src="foto1.jpeg" alt="drawing"  height ="200" width="200" />
+<img src="WhatsApp%20Image%202021-12-06%20at%2013.14.27.jpeg" alt="drawing"  height ="200" width="200" />
+ Apariencia de conexiones internas en dispositivo Principal
 
+<img src="WhatsApp%20Image%202021-11-29%20at%2018.13.42.jpeg" alt="drawing"  height ="200" width="200" />
+Apariencia de conexiones y sensores en dispositivo Secundario
 
-<img src="foto1.jpeg" alt="drawing"  height ="200" width="200" />
-
-
-<img src="foto1.jpeg" alt="drawing"  height ="200" width="200" />
-
+<img src="WhatsApp%20Image%202021-11-29%20at%2018.15.17.jpeg" alt="drawing"  height ="200" width="200" />
+Apariencia de entradas de conexiones con referencias (prototipo)
 
 
 <img src="fioto proyecto.jpeg" alt="drawing"  height ="200" width="400" />
