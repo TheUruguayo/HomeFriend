@@ -1,20 +1,28 @@
 ## HOME FRIEND
 **Más que un robot, un amigo del hogar!**
 
+<img src="fioto proyecto.jpeg" alt="drawing"  height ="200" width="400" />
+
+
+### Creadores
 <img src="WhatsApp%20Image%202020-10-18%20at%2015.21.43.jpeg" alt="drawing"  height ="200" width="200" />
 Ignacio Lanzani
 
 ### DESCRIPCION
 
-@TheUruguayo :+1: se pueden usar emojis  :shipit:
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 Quienes tienen mascotas en el hogar saben que pueden demandar mucha atención, desde un perro muy inquieto o un gato cuyo entretenimiento no basta con una simple pelota de papel. HomeFriend nace con la idea de ser una solución para estas aborrecidas mascotas, pero rápidamente pudimos apreciar el potencial de esta idea a expandirse a otras áreas cómo la vigilancia del hogar e incluso la detección de un peligro inminente (por ej.: un incendio o la presencia de gases tóxicos). Así, la intención es crear una solución más genérica y robusta a los problemas inherentes que se generan al abandonar una vivienda.
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 
 ### Funcionalidades del sistema.
 
 1. Conexión e interacción de funcionalidades con things board permite: 
+
+<img src="dashboard.png" alt="drawing"  height ="250" width="450" />
+
 - Ver temperatura actual e historico.
 - Ver Humedad
 - Ver Decibeles
@@ -29,8 +37,8 @@ Quienes tienen mascotas en el hogar saben que pueden demandar mucha atención, d
 - Bandera si el gasto está cerca.
 - El juguete se enciende automáticamente si detecta el sonido del gato.
 - Streaming de video
-2. El juguete se enciende automáticamente si detecta el sonido del gato.
-3. Streaming de video
+3. El juguete se enciende automáticamente si detecta el sonido del gato.
+4. Streaming de video
 
 <video src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" controls="controls" style="max-width: 730px;">
 </video>
