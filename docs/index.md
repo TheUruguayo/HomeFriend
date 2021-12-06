@@ -3,11 +3,12 @@
 <p align="center">
 <img src="posterfinal.png" alt="drawing"  height ="200" width="150" />
 
-
+### VIDEO
 <video width="480" height="320" controls="controls">
   <source src="ROBOT_20211205_BAJA.mp4 type="video/mp4">
 </video>
-
+https://www.youtube.com/watch?v=mrWStz2AeSQ
+                                                       
 ### Creadores
 <img src="WhatsApp%20Image%202020-10-18%20at%2015.21.43.jpeg" alt="drawing"  height ="200" width="200" />
 Ignacio Lanzani
@@ -44,7 +45,7 @@ Quienes tienen mascotas en el hogar saben que pueden demandar mucha atención, d
 3. El juguete se enciende automáticamente si detecta el sonido del gato.
 4. Streaming de video
 
-<video src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://github.com/TheUruguayo/HomeFriend/blob/main/docs/ROBOT_20211205_BAJA.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
 
