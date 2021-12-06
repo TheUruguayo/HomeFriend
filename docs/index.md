@@ -1,3 +1,4 @@
+<link href="estilos.css" rel="stylesheet" type="text/css">
 ## HOME FRIEND
 **Más que un robot, un amigo del hogar!.**
 
@@ -14,12 +15,26 @@
 Video en HD: https://www.youtube.com/watch?v=mrWStz2AeSQ
                                                        
 ### Creadores
-<img src="WhatsApp%20Image%202020-10-18%20at%2015.21.43.jpeg" alt="drawing"  height ="200" width="200" />
-Ignacio Lanzani
-<img src="Fotela.jpg" alt="drawing"  height ="200" width="200" />
-Gabriel Rodriguez
-<img src="Captura%20de%20pantalla%202021-12-06%20125917.jpg" alt="drawing"  height ="200" width="200" />
-Luis Porras
+<!--Primera Imagen-->
+<div class="contenedor_imagen_texto">
+<div class="imagen"><img src="WhatsApp%20Image%202020-10-18%20at%2015.21.43.jpeg" alt="drawing" height = 200 width = 200></div>
+<div class="texto">Ignacio Lanzani</div>
+</div>
+
+<!--Segunda Imagen-->
+<div class="contenedor_imagen_texto">
+<div class="imagen"><img src="Fotela.jpg" alt="drawing"></div>
+<div class="texto">Gabriel Rodriguez</div>
+</div>
+
+<!--tercera Imagen-->
+<div class="contenedor_imagen_texto">
+<div class="imagen"><img src="ruta/de/la/imagen"></div>
+<div class="texto">Texto debajo de la imagen</div>
+</div>
+</div>
+
+
 
 ### DESCRIPCION
 
