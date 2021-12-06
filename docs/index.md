@@ -1,10 +1,12 @@
 ## HOME FRIEND
 **Más que un robot, un amigo del hogar!.**
-
+<p align="center">
 <img src="posterfinal.png" alt="drawing"  height ="200" width="150" />
 
 
-
+<video width="480" height="320" controls="controls">
+  <source src="ROBOT_20211205_BAJA.mp4 type="video/mp4">
+</video>
 
 ### Creadores
 <img src="WhatsApp%20Image%202020-10-18%20at%2015.21.43.jpeg" alt="drawing"  height ="200" width="200" />
@@ -44,6 +46,7 @@ Quienes tienen mascotas en el hogar saben que pueden demandar mucha atención, d
 
 <video src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" controls="controls" style="max-width: 730px;">
 </video>
+
 
 
 ```markdown
