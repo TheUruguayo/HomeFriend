@@ -61,12 +61,19 @@ Quienes tienen mascotas en el hogar saben que pueden demandar mucha atención, d
 
 
 ### Apariencia 
-
-<img src="fioto proyecto.jpeg" alt="drawing"  height ="200" width="400" />
-
+<img src="foto1.jpeg" alt="drawing"  height ="200" width="200" />
 
 
 <img src="foto1.jpeg" alt="drawing"  height ="200" width="200" />
+
+
+<img src="foto1.jpeg" alt="drawing"  height ="200" width="200" />
+
+
+
+<img src="fioto proyecto.jpeg" alt="drawing"  height ="200" width="400" />
+ Apariencia final
+
   
   
 ### Bitácora
