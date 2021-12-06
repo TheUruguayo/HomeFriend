@@ -1,5 +1,5 @@
 ## HOME FRIEND
-**Más que un robot, un amigo del hogar!**
+**Más que un robot, un amigo del hogar!.**
 
 <img src="posterfinal.png" alt="drawing"  height ="200" width="150" />
 
