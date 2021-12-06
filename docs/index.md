@@ -52,8 +52,8 @@ Quienes tienen mascotas en el hogar saben que pueden demandar mucha atención, d
 - Bandera si el gasto está cerca.
 - El juguete se enciende automáticamente si detecta el sonido del gato.
 - Streaming de video
-3. El juguete se enciende automáticamente si detecta el sonido del gato.
-4. Streaming de video
+2. El juguete se enciende automáticamente si detecta el sonido del gato.
+3. Streaming de video
 
 
 
