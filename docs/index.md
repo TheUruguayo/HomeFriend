@@ -60,10 +60,6 @@ Quienes tienen mascotas en el hogar saben que pueden demandar mucha atención, d
 
 
 
-```markdown
-ejemplos de codigo o cosas que queres recuadrar en este formato
-dddd
-```
 
 ### Apariencia 
 
@@ -72,6 +68,7 @@ dddd
 
 
 <img src="foto1.jpeg" alt="drawing"  height ="200" width="200" />
+  
   
 ### Bitácora
   
