@@ -21,7 +21,6 @@ Ignacio Lanzani
 Gabriel Rodriguez
 <img src="Captura%20de%20pantalla%202021-12-06%20125917.jpg" alt="drawing"  height ="200" width="200" />
 Luis Porras
-<div id="contenedor_principal">
 
 
 ### DESCRIPCION
