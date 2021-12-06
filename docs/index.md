@@ -6,12 +6,8 @@
   
 ### VIDEO
 
-  <video src="https://github.com/TheUruguayo/HomeFriend/blob/main/docs/ROBOT_20211205_BAJA.mp4" data-canonical-src="https://github.com/TheUruguayo/HomeFriend/blob/main/docs/ROBOT_20211205_BAJA.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
 
-  </video>
-
-
-<video width="480" height="320" controls="controls">
+<video width="1080" height="720" controls="controls">
 <source src="ROBOT_20211205_BAJA.mp4" type="video/mp4">
 </video>
                                                        
@@ -53,8 +49,7 @@ Quienes tienen mascotas en el hogar saben que pueden demandar mucha atención, d
 3. El juguete se enciende automáticamente si detecta el sonido del gato.
 4. Streaming de video
 
-<video src="https://github.com/TheUruguayo/HomeFriend/blob/main/docs/ROBOT_20211205_BAJA.mp4" controls="controls" style="max-width: 730px;">
-</video>
+
 
 
 
