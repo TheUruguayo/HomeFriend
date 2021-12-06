@@ -11,7 +11,7 @@
 <source src="ROBOT_20211205_BAJA.mp4" type="video/mp4">
 </video>
                                                        
-https://www.youtube.com/watch?v=mrWStz2AeSQ
+Video en HD: https://www.youtube.com/watch?v=mrWStz2AeSQ
                                                        
 ### Creadores
 <img src="WhatsApp%20Image%202020-10-18%20at%2015.21.43.jpeg" alt="drawing"  height ="200" width="200" />
