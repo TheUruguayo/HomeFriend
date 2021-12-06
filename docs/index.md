@@ -23,7 +23,7 @@ Quienes tienen mascotas en el hogar saben que pueden demandar mucha atención, d
 
 1. Conexión e interacción de funcionalidades con things board permite: 
 
-<img src="dashboard.png" alt="drawing"  height ="250" width="450" />
+<img src="dashboard.png" alt="drawing"  height ="500" width="900" />
 
 - Ver temperatura actual e historico.
 - Ver Humedad
@@ -51,9 +51,11 @@ ejemplos de codigo o cosas que queres recuadrar en este formato
 dddd
 ```
 
-###Apariencia y conexiones 
+### Apariencia 
 
 <img src="fioto proyecto.jpeg" alt="drawing"  height ="200" width="400" />
+
+
 
 100. First list item
      - First nested list item
