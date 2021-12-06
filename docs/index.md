@@ -1,7 +1,9 @@
 ## HOME FRIEND
 **Más que un robot, un amigo del hogar!**
 
-<img src="fioto proyecto.jpeg" alt="drawing"  height ="200" width="400" />
+<img src="posterfinal.png" alt="drawing"  height ="200" width="150" />
+
+
 
 
 ### Creadores
@@ -43,11 +45,16 @@ Quienes tienen mascotas en el hogar saben que pueden demandar mucha atención, d
 <video src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
-<img src="dashboard.png" alt="drawing"  height ="250" width="450" />
+
 ```markdown
 ejemplos de codigo o cosas que queres recuadrar en este formato
 dddd
 ```
+
+###Apariencia y conexiones 
+
+<img src="fioto proyecto.jpeg" alt="drawing"  height ="200" width="400" />
+
 100. First list item
      - First nested list item
        - Second nested list item
