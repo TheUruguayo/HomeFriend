@@ -19,11 +19,12 @@
 Video en HD: https://www.youtube.com/watch?v=mrWStz2AeSQ
                                                        
 ### Creadores
+<p float="left">
+
 <img align="left"  title="Ignacio Lanzani" src="WhatsApp%20Image%202020-10-18%20at%2015.21.43.jpeg" alt="drawing"  height ="200" width="200" />
 <img src="Fotela.jpg" alt="drawing"  height ="200" width="200" /><img  src="Captura%20de%20pantalla%202021-12-06%20125917.jpg" alt="drawing"  height ="200" width="200" />
-Ignacio Lanzani
-Gabriel Rodriguez
-Luis Porras
+  </p>
+Ignacio Lanzani --Gabriel Rodriguez-- Luis Porras
 
 
 ### DESCRIPCION
