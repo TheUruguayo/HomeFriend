@@ -1,9 +1,11 @@
 
 ## HOME FRIEND
 **Más que un robot, un amigo del hogar!.**
+<p align="center">
+  
 
 <img src="posterfinal.png" alt="drawing"  height ="200" width="150" />
-
+</p>
   
 ### VIDEO
 
