@@ -1,10 +1,12 @@
 
 ## HOME FRIEND
-**Más que un robot, un amigo del hogar!.**
+<p align="center">
+**Más que un robot, un amigo del hogar!**
+  </p>
 <p align="center">
   
 
-<img src="posterfinal.png" alt="drawing"  height ="200" width="150" />
+<img src="posterfinal.png" alt="drawing"  height ="400" width="300" />
 </p>
   
 ### VIDEO
@@ -17,11 +19,10 @@
 Video en HD: https://www.youtube.com/watch?v=mrWStz2AeSQ
                                                        
 ### Creadores
-<img src="WhatsApp%20Image%202020-10-18%20at%2015.21.43.jpeg" alt="drawing"  height ="200" width="200" />
+<img align="left"  title="Ignacio Lanzani" src="WhatsApp%20Image%202020-10-18%20at%2015.21.43.jpeg" alt="drawing"  height ="200" width="200" />
+<img src="Fotela.jpg" alt="drawing"  height ="200" width="200" /><img  src="Captura%20de%20pantalla%202021-12-06%20125917.jpg" alt="drawing"  height ="200" width="200" />
 Ignacio Lanzani
-<img src="Fotela.jpg" alt="drawing"  height ="200" width="200" />
 Gabriel Rodriguez
-<img src="Captura%20de%20pantalla%202021-12-06%20125917.jpg" alt="drawing"  height ="200" width="200" />
 Luis Porras
 
 
